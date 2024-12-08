@@ -1,9 +1,9 @@
 {
-    "taskDefinitionArn": "arn:aws:ecs:us-east-1:985539763871:task-definition/loan_flask_config:1",
+    "taskDefinitionArn": "arn:aws:ecs:us-east-1:867344436892:task-definition/loan_flask_config:1",
     "containerDefinitions": [
         {
             "name": "loan_app_container",
-            "image": "985539763871.dkr.ecr.us-east-1.amazonaws.com/loan_flask_app:latest",
+            "image": "867344436892.dkr.ecr.us-east-1.amazonaws.com/loan_flask_app:latest",
             "cpu": 0,
             "portMappings": [
                 {
@@ -36,7 +36,7 @@
         }
     ],
     "family": "loan_flask_config",
-    "executionRoleArn": "arn:aws:iam::985539763871:role/ecsTaskExecutionRole",
+    "executionRoleArn": "arn:aws:iam::867344436892:role/ecsTaskExecutionRole",
     "networkMode": "awsvpc",
     "revision": 1,
     "volumes": [],
@@ -84,7 +84,7 @@
         "cpuArchitecture": "X86_64",
         "operatingSystemFamily": "LINUX"
     },
-    "registeredAt": "2024-12-02T16:18:09.175Z",
-    "registeredBy": "arn:aws:iam::985539763871:user/devops_user_1811448_8314",
+    "registeredAt": "2024-12-08T16:10:06.735Z",
+    "registeredBy": "arn:aws:iam::867344436892:user/devops_user_1871772_9132",
     "tags": []
 }
